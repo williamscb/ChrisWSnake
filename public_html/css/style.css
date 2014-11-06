@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#game-screen {
+    display: block;
+}
+
+#gameOver, #playHUD {
+    position: absolute;
+    visibility: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Shadows Into Light', cursive;
+    color: turquoise;
+    text-align: center;
+}
+
+.title {
+    font-size: 96px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.restartButton {
+    border: 2px solid orange;
+    border-radius: 180px;
+}
+
+.restartButton:hover {
+    background-color: #cccccc;
+}
+
+#scoreboard {
+    margin: 0px;
+}
+
+h3 {
+    font-size: 32px;
+}
